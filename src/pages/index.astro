@@ -17,9 +17,9 @@ import Link1 from '../components/icons/Link1.astro'
 			bg-white/40 dark:bg-white/10 backdrop-blur-2xl">
 			<ul class=" text-gray-500 flex gap-9 justify-center ">
 				<li><a class=" hover:text-gray-700 transition-all" href="">Home</a></li>
-				<li><a class=" hover:text-gray-700 transition-all" href="">About Me</a></li>
-				<li><a class=" hover:text-gray-700 transition-all" href="">Project</a></li>
-				<li><a class=" hover:text-gray-700 transition-all" href="">knowledge</a></li>
+				<li><a class=" hover:text-gray-700 transition-all" href="#About">About Me</a></li>
+				<li><a class=" hover:text-gray-700 transition-all" href="#projects">Project</a></li>
+				<li><a class=" hover:text-gray-700 transition-all" href="#Conocimientos">knowledge</a></li>
 			</nav>
 			</ul>
 		</header>
@@ -47,13 +47,13 @@ import Link1 from '../components/icons/Link1.astro'
 
 
    <section class=" py-[350px]">
-	<h2 class=" text-orange-400 font-black text-6xl py-12">About Me</h2>
+	<h2 id="About" class=" text-orange-400 font-black text-6xl py-12">About Me</h2>
 	<p class=" text-white text-3xl font-semibold"> My name is Diego Bermudez I am 15 years old and I , <br> started programming when <h2 class="text-4xl text-orange-400 font-extrabold gap-5"> Was 14 years old.
 		Currently I'm Still. <br> Learning library, Languages ​​Etc </h2></p>
    </section>
 
    <section>
-	<h2 class="text-orange-400 font-black text-6xl py-12">Projects</h2>
+	<h2 id="projects" class="text-orange-400 font-black text-6xl py-12">Projects</h2>
 	<a href="https://tesla-copy-diegodev.netlify.app/" target="_blank">
 	<img class=" rounded shadow-2xl shadow-white/20" src="/872shots_so.png" alt="" >
 	<p class=" text-gray-500 font-semibold py-7">Pinche la imagen par ir a la pagina.</p>
@@ -72,7 +72,7 @@ import Link1 from '../components/icons/Link1.astro'
 </section>
 
    <section>
-	<h2 class=" text-orange-400 text-6xl font-black">
+	<h2 id="Conocimientos" class=" text-orange-400 text-6xl font-black">
 		knowledge
 	</h2>
 	<p class=" text-gray-500 font-semibold py-7">Coming soon</p>
